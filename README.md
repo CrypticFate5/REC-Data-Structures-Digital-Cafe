@@ -46,18 +46,18 @@ Happy Coding!!
 
 **Tree**
 
- - [Tree Traversal]()
+ - [Tree Traversal]
  - [Binary Search Tree](https://github.com/CrypticFate5/REC-Data-Structures-Digital-Cafe/blob/main/binary_search_tree.c)
- - [Binary Heap]()
- - [Heap Operation]()
+ - [Binary Heap]
+ - [Heap Operation]
  
  **Graphs**
  
- - [DFS]()
- - [BFS]()
- - [Applications of Graph]()
+ - [DFS]
+ - [BFS]
+ - [Applications of Graph]
  
  **Searching**
  
  - [Linear Search](https://github.com/CrypticFate5/REC-Data-Structures-Digital-Cafe/blob/main/linear_search.c)
- - [Binary Search]()
+ - [Binary Search]
