@@ -60,4 +60,4 @@ Happy Coding!!
  **Searching**
  
  - [Linear Search](https://github.com/CrypticFate5/REC-Data-Structures-Digital-Cafe/blob/main/linear_search.c)
- - [Binary Search]
+ - [Binary Search](https://github.com/CrypticFate5/REC-Data-Structures-Digital-Cafe/blob/main/binary_search.c)
