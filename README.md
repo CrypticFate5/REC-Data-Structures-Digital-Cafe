@@ -53,8 +53,8 @@ Happy Coding!!
  
  **Graphs**
  
- - [DFS]
- - [BFS]
+ - [DFS](https://github.com/CrypticFate5/REC-Data-Structures-Digital-Cafe/blob/main/dfs.c)
+ - [BFS](https://github.com/CrypticFate5/REC-Data-Structures-Digital-Cafe/blob/main/bfs.c)
  - [Applications of Graph]
  
  **Searching**
