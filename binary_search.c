@@ -24,21 +24,46 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-int main(){
-    char arr[1000];
-    int x,k=0,a;
-    scanf("%[^\n]",arr);
-    scanf("%d",&x);
-    char*y=strtok(arr," ");
-    while(y!=NULL){
-        a=atoi(y);
-        if(a==x){
-            printf("%d",k);
-            break;
+int binarySearch(int arr[], int n, int x)
+{
+    int first = 0, last = n - 1, mid;
+    while (first <= last)
+    {
+        mid = (first + last) / 2;
+        if (arr[mid] == x)
+        {
+            return mid;
         }
+        else if (x > arr[mid])
+        {
+            first = mid + 1;
+        }
+        else
+        {
+            last = mid - 1;
+        }
+    }
+    return -1;
+}
+int main()
+{
+    char arr[1000];
+    int arrr[100];
+    int x, k = 0, a, n = 0;
+    scanf("%[^\n]", arr);
+    scanf("%d", &x);
+    char *y = strtok(arr, " ");
+    while (y != NULL)
+    {
+        a = atoi(y);
+        arrr[n] = a;
+        n++;
         k++;
-        y=strtok(NULL," ");
+        y = strtok(NULL, " ");
+    }
+    if (binarySearch(arrr, n, x) != -1)
+    {
+        printf("%d", binarySearch(arrr, n, x));
     }
     return 0;
 }
